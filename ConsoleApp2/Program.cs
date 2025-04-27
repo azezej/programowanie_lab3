@@ -102,20 +102,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Tworzenie mediatora
         Bank bank = new Bank();
 
-        // Tworzenie operacji finansowych
         IOperacjaFinansowa wplata = new Wplata(bank);
         IOperacjaFinansowa wyplata = new Wyplata(bank);
 
-        // Realizacja operacji
         bank.RealizujOperacje(wplata);
         bank.RealizujOperacje(wyplata);
 
         Console.WriteLine();
 
-        // Wzorzec Strategia - liczenie podatku
         KalkulatorPodatku kalkulator = new KalkulatorPodatku(new PodatekPolska());
         decimal podatekPolska = kalkulator.Oblicz(1000);
         Console.WriteLine($"Podatek w Polsce od 1000 zł: {podatekPolska} zł");
