@@ -1,1 +1,34 @@
-[{},{},{},{}]
+[
+  {
+    "NumerIndeksu": "123456",
+    "NumerGrupy": "A1",
+    "Imie": "Marek",
+    "Nazwisko": "Kowal",
+    "Wiek": 23,
+    "DataUrodzenia": "2000-08-05T00:00:00"
+  },
+  {
+    "NumerIndeksu": "654321",
+    "NumerGrupy": "B2",
+    "Imie": "Ewa",
+    "Nazwisko": "Nowicka",
+    "Wiek": 24,
+    "DataUrodzenia": "1999-12-30T00:00:00"
+  },
+  {
+    "NumerIndeksu": "789012",
+    "NumerGrupy": "C3",
+    "Imie": "Tomasz",
+    "Nazwisko": "Kaczmarek",
+    "Wiek": 22,
+    "DataUrodzenia": "2001-04-25T00:00:00"
+  },
+  {
+    "NumerIndeksu": "345678",
+    "NumerGrupy": "D4",
+    "Imie": "Krystyna",
+    "Nazwisko": "Witkowska",
+    "Wiek": 20,
+    "DataUrodzenia": "2003-06-15T00:00:00"
+  }
+]
